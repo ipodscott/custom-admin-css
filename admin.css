@@ -1,0 +1,190 @@
+/* Importing Lato for the ACF labels because I like Lato */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+.edit-post-visual-editor__content-area {
+    width: 100%;
+    margin: 0 auto;
+    border-style: solid;
+    border-color: #fff;
+    border-width: 0 20px 0 20px;
+  
+}
+
+.label-highlight{
+	background-color: #fef8ee;	
+}
+
+.editor-post-title__block .editor-post-title__input{
+	font-family: 'Lato', sans-serif;
+	font-weight: normal;
+}
+
+/* Hide Account Links from top admin bar because I keep accidently clicking on them.*/
+
+#wp-admin-bar-my-account{
+	display: none;
+}
+
+/* Makes the primary content editor background white */
+
+.edit-post-layout .interface-interface-skeleton__content  {
+    background-color: #fff;
+}
+
+/* Removed Extra padding for Page Name */
+
+.edit-post-visual-editor__post-title-wrapper .editor-post-title {
+	margin: 0 0 20px 0;
+}
+
+.acf-accordion-title{
+	background-color: #fafafa;
+}
+
+.editor-post-title .editor-post-title__input{
+	margin: 0;
+	padding: 0;
+}
+
+/* Make the WP Admin Area Wider */
+.wp-block, .edit-post-visual-editor, .block-editor-writing-flow__click-redirect {
+ max-width: calc(100vw - 20px);
+
+}
+
+.block-editor-block-list__layout{
+	margin-top: 40px;
+}
+
+
+.acf-accordion-title{
+	font-family: 'Lato', sans-serif;
+	padding: 5px 10px 5px 10px !important;
+}
+
+.gberg-label{
+	font-family: 'Lato', sans-serif;
+	padding: 5px 10px 5px 10px !important;
+	background-color: #f0f0f1 !important;
+	border-style: solid;
+	border-width: 0 0 1px 0;
+	border-color: #ccc;
+}
+
+
+/* Change Label Background Color in Sidebar*/
+.edit-post-sidebar .hide-sidebar{
+	background-color: #fff !important;
+	display: none !important;
+	border:none !important;
+}
+
+.gberg-label .acf-label{
+	font-family: 'Lato', sans-serif;
+	vertical-align: top;
+    margin: 0;
+}
+.gberg-block-info{
+	font-family: 'Lato', sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 8px !important;
+}
+
+.gberg-block-info .acf-label{
+	font-family: 'Lato', sans-serif;
+	margin: 0;
+	width: calc(22% - 5px);
+}
+
+.gberg-block-info .acf-input{
+	font-family: 'Lato', sans-serif;
+	margin: 0;
+	width: calc(78% - 5px);
+}
+
+
+.gberg-block-info .acf-input-wrap input[type="text"] {
+	font-family: 'Lato', sans-serif;
+	padding: 5px;
+	font-size: 12px;
+	min-height: 0 !important;
+}
+
+.extra-button .acf-label{
+	font-family: 'Lato', sans-serif;
+	display: none;
+}
+
+.extra-button .content-toggle{
+	white-space: nowrap;
+    background: #007cba;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: none;
+    outline: 1px solid transparent;
+    text-align: center;
+    font-weight: normal;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/*Widgets Styles*/
+.blocks-widgets-container .editor-styles-wrapper {
+    max-width: 100%;
+    margin: auto;
+}
+
+
+.wp-block[data-type="core/widget-area"] {
+   max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Dash Icon Stuff*/
+
+.gberg-label-pblock{
+	font-family: 'Lato', sans-serif;
+	padding: 5px 10px 5px 10px !important;
+	background-color: #f0f0f1 !important;
+	border-style: solid;
+	border-width: 0 0 1px 0;
+	border-color: #ccc;
+	display: flex;
+	align-items: center !important;
+	justify-content: flex-end;
+	}
+	
+.gberg-label-pblock .acf-label{
+	margin-top: 10px;
+	display: block;
+	position: relative;
+	height: 100%;
+	width: 100px;
+	text-align: center;
+}
+.gberg-label-pblock .acf-input{
+	width: calc(100% - 100px);
+}
+
+.components-button.has-icon .dashicon {
+	margin-right: 0;
+}
+
+/* ACF Side Bar*/
+.components-panel .gberg-label-pblock{
+	margin: 0 !important;
+	background-color: #f0f0f1 !important;
+}
+
+.components-panel .gberg-label-pblock .acf-input{
+	width: auto !important;
+}
+
+
+.components-panel .acf-block-component.acf-block-panel{
+	background-color: #f0f0f1 !important;
+}
