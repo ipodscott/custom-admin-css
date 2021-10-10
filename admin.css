@@ -175,6 +175,13 @@
 }
 
 /* ACF Side Bar*/
+
+.acf-block-component{
+	display: block;
+	position: relative;
+	width: 100%;
+}
+
 .components-panel .gberg-label-pblock{
 	margin: 0 !important;
 	background-color: #f0f0f1 !important;
